@@ -1,0 +1,8 @@
+{
+  "name": "andalvision",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "c85ce9e1"
+}
