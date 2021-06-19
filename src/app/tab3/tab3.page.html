@@ -12,6 +12,16 @@
       <ion-title size="large">Tab 3</ion-title>
     </ion-toolbar>
   </ion-header>
+  <ion-slide-box 
+  show-pager="true" 
+  does-continue="true" 
+  pager-click="true" 
+  auto-play="true" 
+  slide-interval="4000">
 
+<ion-slide ng-repeat="image in imageArray">
+        <img ng-src="../../assets/www/slides/{{image}}.jpg" alt="" height="auto" width="100%">
+</ion-slide>
+</ion-slide-box>
   <app-explore-container name="Tab 3 page"></app-explore-container>
 </ion-content>
