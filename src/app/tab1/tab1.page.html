@@ -1,17 +1,17 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      ANDALVISION xxx
+      ANDALVISION
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-    <video controls="controls" preload="metadata" autoplay="autoplay" webkit-playsinline="webkit-playsinline" class="videoPlayer">
+<ion-content [fullscreen]="true"  >
+    <video controlsList="nodownload" preload="metadata" autoplay="autoplay" loop webkit-playsinline="webkit-playsinline" class="videoPlayer">
       <source src="../../assets/www/videos/direct.mp4" type="video/mp4" />
      </video>
-     <div class="flex">
 
+     <ion-scroll class="flex" direction="y"> 
       <ion-card>
           <ion-item lines="none" color="primary">
               <ion-icon name="cafe" slot="start"></ion-icon>
@@ -108,7 +108,6 @@
     </ion-item>
 </ion-card>
     
-  </div>
-
+</ion-scroll> 
 
 </ion-content>

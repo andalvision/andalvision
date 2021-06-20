@@ -1,14 +1,24 @@
+ion-content {
+    background-color: darkgreen;
+    
+ }
+
 video {
-    width: 100%;
-    justify-content: center;
+   width: 100%;
+   justify-content: center;
 }
 
 .flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  //  padding-right: 15px;
+  //  display: flex;
+  //  flex-wrap: wrap;
+  //  justify-content: center;
+
+    height: 90%;
+    border-top: 1px solid black;
+    overflow-y: scroll;
 }
 ion-card {
-    width: 46%;
-    margin: 7px;
+    width: 95%;
+    margin: 5px;
 }

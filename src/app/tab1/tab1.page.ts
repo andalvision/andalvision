@@ -23,15 +23,8 @@ export class Tab1Page {
       console.log(error);
     });
   }
-  playOnlineVideo() { 
-    this.videoPlayer.play('https://www.youtube.com/watch?v=nhrYbhQJ5Sg').then(() => {
-      console.log('video finished');
-    }).catch(error => {
-      console.log(error);
-    });
-  }
-
   closeVideoPlayer() {
     this.videoPlayer.close();
   }
+  
 }
